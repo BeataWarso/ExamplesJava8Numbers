@@ -12,4 +12,4 @@
 * 8. Wyszukanie min i max
 * 9. Sumowanie przesortowanych liczb
 * 10. Średnia z przesortowanych liczb
-* 11. Losowanie liczb z ograniczajac ilosc wylosowanych liczb i zakres
+* 11. Losowanie liczb z ograniczając ilość wylosowanych liczb i zakres
