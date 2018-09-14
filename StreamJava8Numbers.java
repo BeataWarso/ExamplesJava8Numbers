@@ -11,9 +11,9 @@ public class StreamJava8Numbers {
 	Stream<Integer> number = Stream.of(1, 2, 2, 3, 3, 42, 45,12);
 
 	List<Integer> changedList = number.filter(n -> n % 2 == 0)
-			// .filter(n->n%2==1)
-			// .filter(n -> n>5)
-			// .filter(n -> n % 3== 0)
+			 .filter(n->n%2==1)
+			 .filter(n -> n>5)
+			 .filter(n -> n % 3== 0)
 			.skip(2).limit(3)
 			.distinct()
 			.sorted(Comparator.reverseOrder())
